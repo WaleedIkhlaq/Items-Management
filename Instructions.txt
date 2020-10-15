@@ -1,0 +1,11 @@
+Steps to run this project
+
+1- Clone the repository
+3- Create the database in phpmyadmin "items_management".
+2- Import the database that is in DB folder or run the following command
+    php artisan migrate
+3- Once done, the tables will be created in the database named "items_management".
+4- Last, run following command
+    php artisan serve
+
+Most probably the url would be http://127.0.0.1:8000/ to view the site.
